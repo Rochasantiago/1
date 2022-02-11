@@ -1,0 +1,23 @@
+
+# Atribuindo o valor  a variável (A e B)
+#(int) sendo um comando para mudar a variável “Texto”, para variável “números inteiros”.
+#(input) sendo um comando para a interação com o usuário, mostrado neste exemplo abaixo.
+a=int(input( ' Entre com o primeiro valor: '))
+b=int(input('Entre com o primeiro valor: '))
+
+#Atribuindo os valores as variáveis (soma, subtração, multiplicação, divisão e resto).
+soma= a + b
+subtracao = a + b
+multiplicacao = a * b
+divisao = a / b
+resto = a % b
+
+#Atribuindo o valor das operações aritméticas na variável (Resultado).
+#Especificando cada variável a operação aritmética usando (nome: {e a variável que representa })
+Resultado = ("soma: {soma} \nsubtração: {subtracao}\nDivisão: {divisão}\nMultiplicação:{multiplicacao}\nResto:{resto} "
+.format(soma=soma, subtracao = subtracao , multiplicacao = multplicacao, divisao = divisao, resto = resto))
+
+#Usei o (print(resultado)) para mostrar para o usuário o resultado dos cálculos.
+print(resultado)
+
+
